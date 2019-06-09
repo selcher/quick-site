@@ -1,0 +1,33 @@
+{
+  "name": "quick-site",
+  "version": "0.1.0",
+  "description": "Template for quickly getting started on a website",
+  "main": "",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selcher/quick-site.git"
+  },
+  "keywords": [
+    "template",
+    "website"
+  ],
+  "author": "Selcher <selcher123@gmail.com> (http://selcher.github.io)",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "bugs": {
+    "url": "https://github.com/selcher/quick-site/issues"
+  },
+  "homepage": "https://github.com/selcher/quick-site#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}

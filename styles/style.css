@@ -1,0 +1,86 @@
+/* css variables */
+:root {
+    --color: #000;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr 20px;
+    grid-template-rows: 80px auto 50px;
+    grid-template-areas:
+        "header nav nav ."
+        "aside main main ."
+        "footer footer footer .";
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+aside {
+    grid-area: aside;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+/* header */
+header {
+}
+
+/* navigation */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    list-style-type: none;
+}
+
+nav a {
+    color: var(--color);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* sidebar */
+aside ul {
+    margin-right: 16px;
+    padding: 0;
+
+    list-style: none;
+}
+
+aside li {
+    padding: 2px 0 2px 8px;
+}
+
+aside a {
+    color: var(--color);
+    text-decoration: none;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+/* section */
+section {
+}
+
+
